@@ -12,4 +12,4 @@ Manually installing Nginx on every server was time-consuming.
 I wrote a Bash script that updates repositories, installs Nginx, and configures the firewall automatically.
 
 ## The Code
-Check out the code on my [GitHub Repository](LINK_TO_REPO).
+Check out the code on my [GitHub Repository](https://github.com/ssarode1410/Golden-Scripts.git).
