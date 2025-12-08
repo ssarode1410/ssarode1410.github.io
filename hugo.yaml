@@ -28,6 +28,10 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About Me
+      url: /about
+      weight: 5
     - identifier: projects
       name: Projects
       url: /projects
@@ -36,3 +40,11 @@ menu:
       name: Learning Blog
       url: /posts
       weight: 20
+
+socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/shantanu-sarode"
+  - name: github
+    url: "https://github.com/ssarode1410"
+  - name: email
+    url: "mailto:your-sarode437@gmail.com"
