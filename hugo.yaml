@@ -1,0 +1,35 @@
+baseURL: "https://ssarode1410.github.io/" # CHANGE THIS to your actual username
+languageCode: "en-us"
+title: "Shantanu's Portfolio"
+theme: "PaperMod"
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  
+  # The "Profile Mode" is perfect for a landing page
+  profileMode:
+    enabled: true
+    title: "Shantanu Sarode"
+    subtitle: "IT Specialist | Transitioning to DevOps & Cloud"
+    imageUrl: "" # You can leave this blank for now
+    buttons:
+      - name: Projects
+        url: /projects
+      - name: Resume
+        url: /resume.pdf
+      - name: Github
+        url: https://github.com/ssarode1410
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 10
+    - identifier: blog
+      name: Learning Blog
+      url: /posts
+      weight: 20
