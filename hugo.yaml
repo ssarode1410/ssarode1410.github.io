@@ -1,4 +1,4 @@
-baseURL: "https://ssarode1410.github.io/" # CHANGE THIS to your actual username
+baseURL: "https://ssarode1410.github.io/"
 languageCode: "en-us"
 title: "Shantanu's Portfolio"
 theme: "PaperMod"
@@ -9,7 +9,7 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: true
   
-  # The "Profile Mode" is perfect for a landing page
+  # Profile Mode Settings
   profileMode:
     enabled: true
     title: "Shantanu Sarode"
@@ -17,7 +17,7 @@ params:
     imageUrl: "/images/Professional-headshot.png"
     imageTitle: "My Profile Picture"
     imageWidth: 200
-    imageHeight: 230 # You can leave this blank for now
+    imageHeight: 230
     buttons:
       - name: Projects
         url: /projects
@@ -25,6 +25,16 @@ params:
         url: /Shantanu_Sarode_Devops_Resume.pdf
       - name: Github
         url: https://github.com/ssarode1410
+
+  # --- MOVED HERE (Indented inside params) ---
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shantanu-sarode"
+    - name: github
+      url: "https://github.com/ssarode1410"
+    - name: email
+      url: "mailto:sarode437@gmail.com"
+  # -------------------------------------------
 
 menu:
   main:
@@ -40,11 +50,3 @@ menu:
       name: Learning Blog
       url: /posts
       weight: 20
-
-socialIcons:
-  - name: linkedin
-    url: "https://www.linkedin.com/in/shantanu-sarode"
-  - name: github
-    url: "https://github.com/ssarode1410"
-  - name: email
-    url: "mailto:your-sarode437@gmail.com"
