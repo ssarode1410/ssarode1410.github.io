@@ -14,7 +14,10 @@ params:
     enabled: true
     title: "Shantanu Sarode"
     subtitle: "IT Specialist | Transitioning to DevOps & Cloud"
-    imageUrl: "" # You can leave this blank for now
+    imageUrl: "/images/Professional-headshot.png"
+    imageTitle: "My Profile Picture"
+    imageWidth: 200
+    imageHeight: 230 # You can leave this blank for now
     buttons:
       - name: Projects
         url: /projects
