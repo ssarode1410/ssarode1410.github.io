@@ -16,6 +16,27 @@
       <description>Automated the deployment of a Hugo-based portfolio using GitHub Actions and Pages.</description>
     </item>
     <item>
+      <title>Automated AWS Network Infrastructure</title>
+      <link>http://localhost:1313/projects/aws-network/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/aws-network/</guid>
+      <description>Designed and provisioned a secure VPC architecture using Terraform IaC modules.</description>
+    </item>
+    <item>
+      <title>Secure Secrets Management Architecture</title>
+      <link>http://localhost:1313/projects/azure-secrets/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/azure-secrets/</guid>
+      <description>Integrated Azure Key Vault with Kubernetes (AKS) for Zero Trust security.</description>
+    </item>
+    <item>
+      <title>End-to-End Kubernetes E-Commerce Project</title>
+      <link>http://localhost:1313/projects/ecomm-cicd/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ecomm-cicd/</guid>
+      <description>Automated CI/CD for a 3-Tier App using Jenkins, EKS, and ArgoCD.</description>
+    </item>
+    <item>
       <title>Automated Nginx Deployment</title>
       <link>http://localhost:1313/projects/first-project/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
