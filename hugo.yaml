@@ -8,12 +8,28 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
+
+  env: production
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+    
+  # This turns on the Sidebar for posts/projects
+  widgets:
+    - search
+    - tags
+    - archives
   
   # Profile Mode Settings
   profileMode:
     enabled: true
     title: "Shantanu Sarode"
-    subtitle: "IT Specialist | Transitioning to DevOps & Cloud"
+    subtitle: "IT Specialist | Transitioning to DevOps & Cloud | Lifelong Learner | AWS & Azure | Terraform | Kubernetes | CI/CD"
     imageUrl: "/images/Professional-headshot.png"
     imageTitle: "My Profile Picture"
     imageWidth: 200
@@ -46,6 +62,10 @@ menu:
       name: Projects
       url: /projects
       weight: 10
+    - identifier: skills  <-- ADD THIS BLOCK
+      name: Skills
+      url: /tags
+      weight: 15
     - identifier: blog
       name: Learning Blog
       url: /posts
