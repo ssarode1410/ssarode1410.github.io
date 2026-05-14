@@ -38,7 +38,7 @@ params:
       - name: Projects
         url: /projects
       - name: Resume
-        url: /Shantanu_Sarode_resume1.pdf
+        url: /Shantanu_Sarode_Resume.pdf
       - name: Github
         url: https://github.com/ssarode1410
 
