@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/portfolio-cicd/</loc>
+    <loc>https://ssarode1410.github.io/projects/portfolio-cicd/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/aws-network/</loc>
+    <loc>https://ssarode1410.github.io/projects/aws-network/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/azure-secrets/</loc>
+    <loc>https://ssarode1410.github.io/projects/azure-secrets/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/ecomm-cicd/</loc>
+    <loc>https://ssarode1410.github.io/projects/ecomm-cicd/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ssarode1410.github.io/about/</loc>
     <lastmod>2025-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ssarode1410.github.io/</loc>
     <lastmod>2025-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ci/cd/</loc>
+    <loc>https://ssarode1410.github.io/tags/ci/cd/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://ssarode1410.github.io/tags/devops/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github-actions/</loc>
+    <loc>https://ssarode1410.github.io/tags/github-actions/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://ssarode1410.github.io/tags/hugo/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://ssarode1410.github.io/projects/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ssarode1410.github.io/tags/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://ssarode1410.github.io/tags/aws/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/iac/</loc>
+    <loc>https://ssarode1410.github.io/tags/iac/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
+    <loc>https://ssarode1410.github.io/tags/networking/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/terraform/</loc>
+    <loc>https://ssarode1410.github.io/tags/terraform/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aks/</loc>
+    <loc>https://ssarode1410.github.io/tags/aks/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/azure/</loc>
+    <loc>https://ssarode1410.github.io/tags/azure/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/kubernetes/</loc>
+    <loc>https://ssarode1410.github.io/tags/kubernetes/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://ssarode1410.github.io/tags/security/</loc>
     <lastmod>2025-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/argocd/</loc>
+    <loc>https://ssarode1410.github.io/tags/argocd/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://ssarode1410.github.io/tags/docker/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/eks/</loc>
+    <loc>https://ssarode1410.github.io/tags/eks/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jenkins/</loc>
+    <loc>https://ssarode1410.github.io/tags/jenkins/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/first-project/</loc>
+    <loc>https://ssarode1410.github.io/projects/first-project/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bash/</loc>
+    <loc>https://ssarode1410.github.io/tags/bash/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://ssarode1410.github.io/tags/linux/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ssarode1410.github.io/categories/</loc>
   </url>
 </urlset>
