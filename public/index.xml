@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shantanu&#39;s Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ssarode1410.github.io/</link>
     <description>Recent content on Shantanu&#39;s Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ssarode1410.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CI/CD Pipeline for Static Website</title>
-      <link>http://localhost:1313/projects/portfolio-cicd/</link>
+      <link>https://ssarode1410.github.io/projects/portfolio-cicd/</link>
       <pubDate>Mon, 08 Dec 2025 12:19:18 +0530</pubDate>
-      <guid>http://localhost:1313/projects/portfolio-cicd/</guid>
+      <guid>https://ssarode1410.github.io/projects/portfolio-cicd/</guid>
       <description>Automated the deployment of a Hugo-based portfolio using GitHub Actions and Pages.</description>
     </item>
     <item>
       <title>Automated AWS Network Infrastructure</title>
-      <link>http://localhost:1313/projects/aws-network/</link>
+      <link>https://ssarode1410.github.io/projects/aws-network/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/aws-network/</guid>
+      <guid>https://ssarode1410.github.io/projects/aws-network/</guid>
       <description>Designed and provisioned a secure VPC architecture using Terraform IaC modules.</description>
     </item>
     <item>
       <title>Secure Secrets Management Architecture</title>
-      <link>http://localhost:1313/projects/azure-secrets/</link>
+      <link>https://ssarode1410.github.io/projects/azure-secrets/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/azure-secrets/</guid>
+      <guid>https://ssarode1410.github.io/projects/azure-secrets/</guid>
       <description>Integrated Azure Key Vault with Kubernetes (AKS) for Zero Trust security.</description>
     </item>
     <item>
       <title>End-to-End Kubernetes E-Commerce Project</title>
-      <link>http://localhost:1313/projects/ecomm-cicd/</link>
+      <link>https://ssarode1410.github.io/projects/ecomm-cicd/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/ecomm-cicd/</guid>
+      <guid>https://ssarode1410.github.io/projects/ecomm-cicd/</guid>
       <description>Automated CI/CD for a 3-Tier App using Jenkins, EKS, and ArgoCD.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://ssarode1410.github.io/about/</link>
       <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://ssarode1410.github.io/about/</guid>
       <description>Professional background: From Systems Admin to DevOps Engineer.</description>
     </item>
     <item>
       <title>Automated Nginx Deployment</title>
-      <link>http://localhost:1313/projects/first-project/</link>
+      <link>https://ssarode1410.github.io/projects/first-project/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/first-project/</guid>
+      <guid>https://ssarode1410.github.io/projects/first-project/</guid>
       <description>A Bash script that automates web server setup on Linux.</description>
     </item>
   </channel>
