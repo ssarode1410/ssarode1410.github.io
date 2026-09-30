@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on Shantanu&#39;s Portfolio</title>
-    <link>https://ssarode1410.github.io/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Shantanu&#39;s Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ssarode1410.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End-to-End Kubernetes E-Commerce Project</title>
-      <link>https://ssarode1410.github.io/projects/ecomm-cicd/</link>
+      <link>http://localhost:1313/projects/ecomm-cicd/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ssarode1410.github.io/projects/ecomm-cicd/</guid>
+      <guid>http://localhost:1313/projects/ecomm-cicd/</guid>
       <description>Automated CI/CD for a 3-Tier App using Jenkins, EKS, and ArgoCD.</description>
     </item>
   </channel>
