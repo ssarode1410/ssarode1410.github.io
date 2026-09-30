@@ -1,4 +1,3 @@
-```markdown
 # Shantanu Sarode - Cloud Engineering & SRE Portfolio
 
 This repository hosts my professional portfolio and daily "Break-and-Fix" engineering labs. As a Cloud Systems and Site Reliability Engineer, I use this site to document infrastructure escalations, root-cause analysis (RCA), and Day 2 operational resolutions across AWS and Azure environments. 
@@ -14,30 +13,21 @@ All lab documentation and incident resolutions on this site follow my core metho
 ## Tech Stack
 * **Framework:** [Hugo](https://gohugo.io/) (Static Site Generator)
 * **Hosting:** GitHub Pages
+* **CI/CD:** GitHub Actions (Automated build and deploy)
 * **Version Control:** Git
 
-## Local Development & Deployment Workflow
+## SOP: Updating Static Assets (Resume, Images, PDFs)
+Hugo dynamically generates the `public/` directory during the build process. **Never place files directly into the `public/` folder**, as they will be overwritten by the GitHub Actions CI/CD pipeline. 
 
-To run this site locally or deploy new changes, follow these steps:
+To update static files like your resume or lab architecture images, follow this runbook:
 
-1. **Local Server:** Run `hugo server` to preview changes locally at `http://localhost:1313/`.
-2. **Build:** Run `hugo` to compile the final static site into the `/public` directory.
-3. **Deploy:** Commit and push the generated files to the remote repository.
-
-```
-
-### Future Workflow: How to handle all future changes
-
-Whenever you add a new "Break-and-Fix" lab, update your resume, or change a configuration, you must follow this exact four-step cycle to ensure your live GitHub Pages site updates correctly:
-
-1. **Edit the Source Files:**
-Make your changes in the appropriate source folders (e.g., place new images or PDFs in `/static`, write new blog posts in `/content`, or edit configurations). *Never edit files directly inside the `/public` folder, as they will be overwritten.*
-2. **Test Locally (Optional but Recommended):**
-Run `hugo server -D` in your terminal to preview your changes in your browser and ensure nothing is broken.
-3. **Build the Site:**
-Stop the local server (Ctrl+C) and run the command `hugo`. This compiles your source files and generates the fresh HTML/CSS directly into your `/public` folder.
-4. **Push to GitHub:**
-Run your standard Git commands to push the updated files to your repository:
-* `git add .`
-* `git commit -m "Added new troubleshooting lab" `
-* `git push`
+1. **Upload to Static:** Place the new file strictly inside the `/static` directory at the root of the repository (e.g., `/static/Shantanu_Sarode_Resumeeee.pdf`).
+2. **Update the Configuration:** 
+   * If updating the resume button, open the main Hugo configuration file (e.g., `config.yml`, `hugo.toml`, or `hugo.yaml`).
+   * Update the `url` parameter to exactly match the new filename. Case sensitivity matters.
+   * If updating an image in a blog post, update the markdown image reference (e.g., `![Architecture Diagram](/new-image.png)`).
+3. **Commit and Push:** 
+   ```bash
+   git add .
+   git commit -m "Update resume file and config references"
+   git push
