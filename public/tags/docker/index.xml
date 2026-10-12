@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docker on Shantanu&#39;s Portfolio</title>
-    <link>https://ssarode1410.github.io/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Shantanu&#39;s Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ssarode1410.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2026 06:22:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End-to-End Kubernetes E-Commerce Project</title>
-      <link>https://ssarode1410.github.io/projects/ecomm-cicd/</link>
+      <link>http://localhost:1313/projects/ecomm-cicd/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://ssarode1410.github.io/projects/ecomm-cicd/</guid>
+      <guid>http://localhost:1313/projects/ecomm-cicd/</guid>
       <description>Automated CI/CD for a 3-Tier App using Jenkins, EKS, and ArgoCD.</description>
+    </item>
+    <item>
+      <title>Secure CI/CD: Decoupling IaC and Application Pipelines</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</guid>
+      <description>This article outlines a secure and efficient architectural approach for CI/CD pipelines, advocating for the strict decoupling of Infrastructure as Code (IaC) provisioning using Terraform from application build processes. It details how separating these lifecycles enhances security, reduces blast radius, and optimizes execution speed.</description>
+    </item>
+    <item>
+      <title>Voting Application CD with GitOps and ArgoCD</title>
+      <link>http://localhost:1313/projects/2025-01-27-voting-application-cd-with-gitops-and-argocd/</link>
+      <pubDate>Mon, 27 Jan 2025 19:16:35 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2025-01-27-voting-application-cd-with-gitops-and-argocd/</guid>
+      <description>Implemented a continuous deployment pipeline for a Voting Application, leveraging GitOps and ArgoCD to deploy Docker images from Azure Container Registry to an Azure Kubernetes Service (AKS) cluster.</description>
     </item>
   </channel>
 </rss>

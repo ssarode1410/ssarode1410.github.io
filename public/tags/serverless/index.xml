@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Serverless on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/serverless/</link>
+    <description>Recent content in Serverless on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2026 07:25:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightweight Serverless .NET 8 Azure Function Deployment</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a secure CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and zero-trust security principles.</description>
+    </item>
+    <item>
+      <title>Zero-Trust Serverless CI/CD with Azure Functions</title>
+      <link>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</guid>
+      <description>Architected and implemented a lightweight, zero-trust CI/CD pipeline for a .NET 8 Azure Function on the Flex Consumption plan. This solution prioritizes speed and security by leveraging native Azure services and eliminating container overhead.</description>
+    </item>
+    <item>
+      <title>DevOps &amp; Cloud Infrastructure Projects</title>
+      <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</guid>
+      <description>This portfolio highlights recent hands-on projects, including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, alongside extensive experience with Jenkins, Azure DevOps, and observability tools.</description>
+    </item>
+  </channel>
+</rss>

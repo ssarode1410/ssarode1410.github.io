@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>.NET 8 on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/.net-8/</link>
+    <description>Recent content in .NET 8 on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2026 07:25:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/.net-8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightweight Serverless .NET 8 Azure Function Deployment</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a secure CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and zero-trust security principles.</description>
+    </item>
+  </channel>
+</rss>

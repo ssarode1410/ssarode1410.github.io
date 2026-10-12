@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Platform Engineering on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/platform-engineering/</link>
+    <description>Recent content in Platform Engineering on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2026 06:22:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/platform-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure CI/CD: Decoupling IaC and Application Pipelines</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</guid>
+      <description>This article outlines a secure and efficient architectural approach for CI/CD pipelines, advocating for the strict decoupling of Infrastructure as Code (IaC) provisioning using Terraform from application build processes. It details how separating these lifecycles enhances security, reduces blast radius, and optimizes execution speed.</description>
+    </item>
+  </channel>
+</rss>

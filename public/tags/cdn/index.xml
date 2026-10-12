@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CDN on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/cdn/</link>
+    <description>Recent content in CDN on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2026 06:11:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure Static Website Hosting with AWS S3 &amp; CloudFront</title>
+      <link>http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/</link>
+      <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/</guid>
+      <description>Built a secure static website hosting architecture leveraging Amazon S3 for storage and Amazon CloudFront for global content delivery, overcoming common configuration challenges related to access control and routing.</description>
+    </item>
+  </channel>
+</rss>

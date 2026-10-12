@@ -1,0 +1,11 @@
+---
+title: "Zero-Trust Serverless CI/CD with Azure Functions"
+date: 2026-08-22 07:25:19
+draft: false
+tags: ['Azure', 'Azure Functions', 'Azure DevOps', 'CI/CD', 'Serverless', 'Zero-Trust', '.NET', 'Key Vault', 'Managed Identity', 'PaaS']
+summary: "Architected and implemented a lightweight, zero-trust CI/CD pipeline for a .NET 8 Azure Function on the Flex Consumption plan. This solution prioritizes speed and security by leveraging native Azure services and eliminating container overhead."
+---
+
+Not every cloud deployment requires the heavy lifting of a Kubernetes cluster! Lately, I’ve been diving deep into container orchestration and GitOps, but today I took a step back to architect a native, non-containerized PaaS deployment. The goal? Maximum speed, zero-trust security, and zero container overhead.I built a complete CI/CD pipeline for a **.NET 8 Azure Function** targeting the new **Flex Consumption plan**, and the results were incredibly lightweight and efficient.Here is a breakdown of the architecture:## The ComputeDeployed to **Azure's Flex Consumption plan** to keep the pay-as-you-go serverless model while unlocking enterprise features like VNet integration and cold-start mitigation.## Zero-Trust SecurityCompletely eliminated hardcoded pipeline secrets. I provisioned the Function App with a **System-Assigned Managed Identity**, granted it strict **RBAC** access to **Azure Key Vault**, and utilized native `@Microsoft.KeyVault` environment variable references.## The CI/CD EngineBuilt a multi-stage **Azure DevOps YAML pipeline** running on a self-hosted Linux agent. The CI stage uses the .NET CLI to compile and package a .zip artifact, and the CD stage pushes it directly to the App Service plan via an Azure Resource Manager connection.## The TakeawayWhile Docker and AKS are fantastic tools, sometimes a native ZIP deployment over a secure Service Connection is exactly what an enterprise needs for event-driven APIs. It drastically reduces pipeline execution time and shrinks the operational attack surface.What is your go-to deployment strategy for lightweight background jobs and APIs? Are you team Serverless or team Containers? Let me know below!
+
+*[Original LinkedIn Post](https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7496829844270243840)*

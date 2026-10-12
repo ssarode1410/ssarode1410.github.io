@@ -2,18 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CI/CD on Shantanu&#39;s Portfolio</title>
-    <link>https://ssarode1410.github.io/tags/ci/cd/</link>
+    <link>http://localhost:1313/tags/ci/cd/</link>
     <description>Recent content in CI/CD on Shantanu&#39;s Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 12:19:18 +0530</lastBuildDate>
-    <atom:link href="https://ssarode1410.github.io/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2026 10:51:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CI/CD Pipeline for Static Website</title>
-      <link>https://ssarode1410.github.io/projects/portfolio-cicd/</link>
+      <link>http://localhost:1313/projects/portfolio-cicd/</link>
       <pubDate>Mon, 08 Dec 2025 12:19:18 +0530</pubDate>
-      <guid>https://ssarode1410.github.io/projects/portfolio-cicd/</guid>
+      <guid>http://localhost:1313/projects/portfolio-cicd/</guid>
       <description>Automated the deployment of a Hugo-based portfolio using GitHub Actions and Pages.</description>
+    </item>
+    <item>
+      <title>Automated CI/CD with Azure DevOps, Terraform, and Ansible</title>
+      <link>http://localhost:1313/projects/2026-09-09-automated-ci-cd-with-azure-devops-terraform-and-ansible/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-09-09-automated-ci-cd-with-azure-devops-terraform-and-ansible/</guid>
+      <description>Engineered a fully automated, end-to-end CI/CD workflow using Azure DevOps, Terraform, and Ansible to provision and configure Azure infrastructure, enabling zero-touch deployments.</description>
+    </item>
+    <item>
+      <title>End-to-End CI/CD with Azure DevOps, Terraform, and Ansible</title>
+      <link>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-with-azure-devops-terraform-and-ansible/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-with-azure-devops-terraform-and-ansible/</guid>
+      <description>Engineered a fully automated, end-to-end CI/CD workflow using Azure DevOps, Terraform, and Ansible, enabling zero-touch deployment of Azure infrastructure and server configuration.</description>
+    </item>
+    <item>
+      <title>Lightweight Serverless .NET 8 Azure Function Deployment</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a secure CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and zero-trust security principles.</description>
+    </item>
+    <item>
+      <title>Zero-Trust Serverless CI/CD with Azure Functions</title>
+      <link>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</guid>
+      <description>Architected and implemented a lightweight, zero-trust CI/CD pipeline for a .NET 8 Azure Function on the Flex Consumption plan. This solution prioritizes speed and security by leveraging native Azure services and eliminating container overhead.</description>
+    </item>
+    <item>
+      <title>DevOps &amp; Cloud Infrastructure Projects</title>
+      <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</guid>
+      <description>This portfolio highlights recent hands-on projects, including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, alongside extensive experience with Jenkins, Azure DevOps, and observability tools.</description>
+    </item>
+    <item>
+      <title>Recent DevOps &amp; Cloud Infrastructure Projects</title>
+      <link>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</guid>
+      <description>This portfolio highlights recent hands-on projects including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, showcasing expertise in modern DevOps and cloud infrastructure.</description>
+    </item>
+    <item>
+      <title>End-to-End AWS CI/CD Pipeline</title>
+      <link>http://localhost:1313/projects/2026-07-27-end-to-end-aws-ci-cd-pipeline/</link>
+      <pubDate>Mon, 27 Jul 2026 15:12:58 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-27-end-to-end-aws-ci-cd-pipeline/</guid>
+      <description>This project details the creation of a fully automated, end-to-end CI/CD pipeline on AWS, integrating GitHub for source control with AWS CodePipeline, CodeBuild, S3, and CloudFront for seamless global content delivery.</description>
+    </item>
+    <item>
+      <title>End-to-End AWS CI/CD Pipeline with GitHub</title>
+      <link>http://localhost:1313/projects/2026-07-27-end-to-end-aws-ci-cd-pipeline-with-github/</link>
+      <pubDate>Mon, 27 Jul 2026 15:12:58 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-27-end-to-end-aws-ci-cd-pipeline-with-github/</guid>
+      <description>This project details the creation of a zero-touch, end-to-end CI/CD pipeline on AWS, integrating GitHub, CodePipeline, CodeBuild, S3, and CloudFront for automated deployments and global content delivery.</description>
+    </item>
+    <item>
+      <title>Secure CI/CD: Decoupling IaC and Application Pipelines</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</guid>
+      <description>This article outlines a secure and efficient architectural approach for CI/CD pipelines, advocating for the strict decoupling of Infrastructure as Code (IaC) provisioning using Terraform from application build processes. It details how separating these lifecycles enhances security, reduces blast radius, and optimizes execution speed.</description>
+    </item>
+    <item>
+      <title>Voting Application CD with GitOps and ArgoCD</title>
+      <link>http://localhost:1313/projects/2025-01-27-voting-application-cd-with-gitops-and-argocd/</link>
+      <pubDate>Mon, 27 Jan 2025 19:16:35 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2025-01-27-voting-application-cd-with-gitops-and-argocd/</guid>
+      <description>Implemented a continuous deployment pipeline for a Voting Application, leveraging GitOps and ArgoCD to deploy Docker images from Azure Container Registry to an Azure Kubernetes Service (AKS) cluster.</description>
     </item>
   </channel>
 </rss>

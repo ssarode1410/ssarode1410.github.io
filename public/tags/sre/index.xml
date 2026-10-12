@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SRE on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/sre/</link>
+    <description>Recent content in SRE on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Aug 2026 05:58:40 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps &amp; Cloud Infrastructure Projects</title>
+      <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</guid>
+      <description>This portfolio highlights recent hands-on projects, including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, alongside extensive experience with Jenkins, Azure DevOps, and observability tools.</description>
+    </item>
+    <item>
+      <title>Recent DevOps &amp; Cloud Infrastructure Projects</title>
+      <link>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</guid>
+      <description>This portfolio highlights recent hands-on projects including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, showcasing expertise in modern DevOps and cloud infrastructure.</description>
+    </item>
+  </channel>
+</rss>
