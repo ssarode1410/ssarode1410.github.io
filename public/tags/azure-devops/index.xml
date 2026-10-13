@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 09 Sep 2026 10:51:40 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/azure-devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Automated CI/CD Pipeline with Azure DevOps, Terraform, and Ansible</title>
+      <link>http://localhost:1313/projects/2026-09-09-automated-ci-cd-pipeline-with-azure-devops-terraform-and-ansible/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-09-09-automated-ci-cd-pipeline-with-azure-devops-terraform-and-ansible/</guid>
+      <description>Engineered a fully automated, end-to-end CI/CD workflow using Azure DevOps, Terraform, and Ansible, enabling zero-touch deployment of Azure infrastructure and server configuration.</description>
+    </item>
+    <item>
       <title>Automated CI/CD with Azure DevOps, Terraform, and Ansible</title>
       <link>http://localhost:1313/projects/2026-09-09-automated-ci-cd-with-azure-devops-terraform-and-ansible/</link>
       <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
@@ -23,6 +30,13 @@
       <description>Engineered a fully automated, end-to-end CI/CD workflow using Azure DevOps, Terraform, and Ansible, enabling zero-touch deployment of Azure infrastructure and server configuration.</description>
     </item>
     <item>
+      <title>End-to-End CI/CD Workflow with Azure DevOps, Terraform, and Ansible</title>
+      <link>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-workflow-with-azure-devops-terraform-and-ansible/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-workflow-with-azure-devops-terraform-and-ansible/</guid>
+      <description>Engineered a fully automated, end-to-end CI/CD workflow from scratch using Azure DevOps, Terraform, and Ansible, focusing on zero-touch deployments and dynamic infrastructure provisioning.</description>
+    </item>
+    <item>
       <title>Lightweight Serverless .NET 8 Azure Function Deployment</title>
       <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</link>
       <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
@@ -30,11 +44,32 @@
       <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a secure CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and zero-trust security principles.</description>
     </item>
     <item>
+      <title>Lightweight Serverless .NET Azure Function CI/CD</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.</description>
+    </item>
+    <item>
+      <title>Lightweight Serverless Deployment with Azure Functions and Azure DevOps</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a zero-trust CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and Managed Identities for secure, efficient serverless operations.</description>
+    </item>
+    <item>
       <title>Zero-Trust Serverless CI/CD with Azure Functions</title>
       <link>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</link>
       <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</guid>
       <description>Architected and implemented a lightweight, zero-trust CI/CD pipeline for a .NET 8 Azure Function on the Flex Consumption plan. This solution prioritizes speed and security by leveraging native Azure services and eliminating container overhead.</description>
+    </item>
+    <item>
+      <title>Advanced Cloud &amp; GitOps Implementations</title>
+      <link>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</guid>
+      <description>This portfolio showcases recent hands-on projects, including a GitOps deployment pipeline on Azure Kubernetes Service (AKS) with ArgoCD, a fully Terraform-codified AWS serverless CI/CD architecture, and an EKS-based three-tier e-commerce platform integrating Jenkins and ArgoCD.</description>
     </item>
   </channel>
 </rss>

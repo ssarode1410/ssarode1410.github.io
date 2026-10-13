@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lightweight Serverless .NET Azure Function CI/CD | Shantanu&#39;s Portfolio</title>
+<meta name="keywords" content="Azure, Azure Functions, Azure DevOps, CI/CD, Serverless, .NET, Zero-Trust, Key Vault, Managed Identity">
+<meta name="description" content="This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/">
+  <meta property="og:site_name" content="Shantanu&#39;s Portfolio">
+  <meta property="og:title" content="Lightweight Serverless .NET Azure Function CI/CD">
+  <meta property="og:description" content="This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2026-08-22T07:25:19+00:00">
+    <meta property="article:modified_time" content="2026-08-22T07:25:19+00:00">
+    <meta property="article:tag" content="Azure">
+    <meta property="article:tag" content="Azure Functions">
+    <meta property="article:tag" content="Azure DevOps">
+    <meta property="article:tag" content="CI/CD">
+    <meta property="article:tag" content="Serverless">
+    <meta property="article:tag" content=".NET">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lightweight Serverless .NET Azure Function CI/CD">
+<meta name="twitter:description" content="This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lightweight Serverless .NET Azure Function CI/CD",
+      "item": "http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lightweight Serverless .NET Azure Function CI/CD",
+  "name": "Lightweight Serverless .NET Azure Function CI\/CD",
+  "description": "This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.",
+  "keywords": [
+    "Azure", "Azure Functions", "Azure DevOps", "CI/CD", "Serverless", ".NET", "Zero-Trust", "Key Vault", "Managed Identity"
+  ],
+  "articleBody": "Not every cloud deployment requires the heavy lifting of a Kubernetes cluster!Lately, I’ve been diving deep into container orchestration and GitOps, but today I took a step back to architect a native, non-containerized PaaS deployment. The goal? Maximum speed, zero-trust security, and zero container overhead.I built a complete CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, and the results were incredibly lightweight and efficient.## Architecture Breakdown### The ComputeDeployed to Azure’s Flex Consumption plan to keep the pay-as-you-go serverless model while unlocking enterprise features like VNet integration and cold-start mitigation.### Zero-Trust SecurityCompletely eliminated hardcoded pipeline secrets. I provisioned the Function App with a System-Assigned Managed Identity, granted it strict RBAC access to Azure Key Vault, and utilized native @Microsoft.KeyVault environment variable references.### The CI/CD EngineBuilt a multi-stage Azure DevOps YAML pipeline running on a self-hosted Linux agent.The CI stage uses the .NET CLI to compile and package a .zip artifact.The CD stage pushes it directly to the App Service plan via an Azure Resource Manager connection.## The TakeawayWhile Docker and AKS are fantastic tools, sometimes a native ZIP deployment over a secure Service Connection is exactly what an enterprise needs for event-driven APIs. It drastically reduces pipeline execution time and shrinks the operational attack surface.What is your go-to deployment strategy for lightweight background jobs and APIs? Are you team Serverless or team Containers? Let me know below!\nOriginal LinkedIn Post\n",
+  "wordCount" : "235",
+  "inLanguage": "en",
+  "datePublished": "2026-08-22T07:25:19Z",
+  "dateModified": "2026-08-22T07:25:19Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shantanu's Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Shantanu&#39;s Portfolio (Alt + H)">Shantanu&#39;s Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags" title="Skills">
+                    <span>Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts" title="Learning Blog">
+                    <span>Learning Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Lightweight Serverless .NET Azure Function CI/CD
+    </h1>
+    <div class="post-meta"><span title='2026-08-22 07:25:19 +0000 UTC'>August 22, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Not every cloud deployment requires the heavy lifting of a Kubernetes cluster!Lately, I’ve been diving deep into container orchestration and GitOps, but today I took a step back to architect a native, non-containerized PaaS deployment. The goal? Maximum speed, zero-trust security, and zero container overhead.I built a complete CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, and the results were incredibly lightweight and efficient.## Architecture Breakdown### The ComputeDeployed to <strong>Azure&rsquo;s Flex Consumption plan</strong> to keep the pay-as-you-go serverless model while unlocking enterprise features like VNet integration and cold-start mitigation.### Zero-Trust SecurityCompletely eliminated hardcoded pipeline secrets. I provisioned the Function App with a <strong>System-Assigned Managed Identity</strong>, granted it strict <strong>RBAC access to Azure Key Vault</strong>, and utilized native <code>@Microsoft.KeyVault</code> environment variable references.### The CI/CD EngineBuilt a multi-stage <strong>Azure DevOps YAML pipeline</strong> running on a self-hosted Linux agent.The <strong>CI stage</strong> uses the .NET CLI to compile and package a .zip artifact.The <strong>CD stage</strong> pushes it directly to the App Service plan via an Azure Resource Manager connection.## The TakeawayWhile Docker and AKS are fantastic tools, sometimes a native ZIP deployment over a secure Service Connection is exactly what an enterprise needs for event-driven APIs. It drastically reduces pipeline execution time and shrinks the operational attack surface.What is your go-to deployment strategy for lightweight background jobs and APIs? Are you team Serverless or team Containers? Let me know below!</p>
+<p><em><a href="https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7496829844270243840">Original LinkedIn Post</a></em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/azure/">Azure</a></li>
+      <li><a href="http://localhost:1313/tags/azure-functions/">Azure Functions</a></li>
+      <li><a href="http://localhost:1313/tags/azure-devops/">Azure DevOps</a></li>
+      <li><a href="http://localhost:1313/tags/ci/cd/">CI/CD</a></li>
+      <li><a href="http://localhost:1313/tags/serverless/">Serverless</a></li>
+      <li><a href="http://localhost:1313/tags/.net/">.NET</a></li>
+      <li><a href="http://localhost:1313/tags/zero-trust/">Zero-Trust</a></li>
+      <li><a href="http://localhost:1313/tags/key-vault/">Key Vault</a></li>
+      <li><a href="http://localhost:1313/tags/managed-identity/">Managed Identity</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Lightweight Serverless .NET 8 Azure Function Deployment</span>
+  </a>
+  <a class="next" href="http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Lightweight Serverless Deployment with Azure Functions and Azure DevOps</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Shantanu&#39;s Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

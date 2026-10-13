@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</guid>
       <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a secure CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and zero-trust security principles.</description>
     </item>
+    <item>
+      <title>Lightweight Serverless Deployment with Azure Functions and Azure DevOps</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized PaaS deployment for a .NET 8 Azure Function. It features a zero-trust CI/CD pipeline built with Azure DevOps, leveraging Azure&amp;rsquo;s Flex Consumption plan and Managed Identities for secure, efficient serverless operations.</description>
+    </item>
   </channel>
 </rss>

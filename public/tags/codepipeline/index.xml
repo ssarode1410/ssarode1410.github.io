@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 27 Jul 2026 15:12:58 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/codepipeline/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Automated AWS CI/CD Pipeline with GitHub Integration</title>
+      <link>http://localhost:1313/projects/2026-07-27-automated-aws-ci-cd-pipeline-with-github-integration/</link>
+      <pubDate>Mon, 27 Jul 2026 15:12:58 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-27-automated-aws-ci-cd-pipeline-with-github-integration/</guid>
+      <description>This project details the creation of a zero-touch CI/CD pipeline on AWS, integrating GitHub, CodePipeline, CodeBuild, S3, and CloudFront for automated deployments. It highlights the troubleshooting of an IAM permission issue during the build process.</description>
+    </item>
+    <item>
       <title>End-to-End AWS CI/CD Pipeline</title>
       <link>http://localhost:1313/projects/2026-07-27-end-to-end-aws-ci-cd-pipeline/</link>
       <pubDate>Mon, 27 Jul 2026 15:12:58 +0000</pubDate>

@@ -9,11 +9,25 @@
     <lastBuildDate>Sat, 25 Jul 2026 06:22:05 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cloud-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Secure CI/CD Architecture: Decoupling Terraform</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-architecture-decoupling-terraform/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-architecture-decoupling-terraform/</guid>
+      <description>This post outlines a secure architectural approach for CI/CD pipelines, advocating for the strict decoupling of infrastructure provisioning (using Terraform) from application builds to enhance security, reduce blast radius, and improve execution speed.</description>
+    </item>
+    <item>
       <title>Secure CI/CD: Decoupling IaC and Application Pipelines</title>
       <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</link>
       <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</guid>
       <description>This article outlines a secure and efficient architectural approach for CI/CD pipelines, advocating for the strict decoupling of Infrastructure as Code (IaC) provisioning using Terraform from application build processes. It details how separating these lifecycles enhances security, reduces blast radius, and optimizes execution speed.</description>
+    </item>
+    <item>
+      <title>Secure CI/CD: Decoupling IaC from Application Builds</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/</guid>
+      <description>This article details a critical best practice for CI/CD pipelines: strictly decoupling Infrastructure as Code (IaC) from application builds. It explains how this approach enhances security by enforcing least privilege and improves efficiency, outlining a secure architecture using separate pipelines for infrastructure provisioning and application delivery with GitOps.</description>
     </item>
   </channel>
 </rss>

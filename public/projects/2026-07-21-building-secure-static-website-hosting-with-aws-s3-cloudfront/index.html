@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Building Secure Static Website Hosting with AWS S3 &amp; CloudFront | Shantanu&#39;s Portfolio</title>
+<meta name="keywords" content="AWS, Amazon S3, Amazon CloudFront, CDN, Cloud Architecture, DevOps, Security, Static Website Hosting">
+<meta name="description" content="This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/">
+  <meta property="og:site_name" content="Shantanu&#39;s Portfolio">
+  <meta property="og:title" content="Building Secure Static Website Hosting with AWS S3 & CloudFront">
+  <meta property="og:description" content="This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2026-07-21T06:11:38+00:00">
+    <meta property="article:modified_time" content="2026-07-21T06:11:38+00:00">
+    <meta property="article:tag" content="AWS">
+    <meta property="article:tag" content="Amazon S3">
+    <meta property="article:tag" content="Amazon CloudFront">
+    <meta property="article:tag" content="CDN">
+    <meta property="article:tag" content="Cloud Architecture">
+    <meta property="article:tag" content="DevOps">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Building Secure Static Website Hosting with AWS S3 &amp; CloudFront">
+<meta name="twitter:description" content="This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Building Secure Static Website Hosting with AWS S3 \u0026 CloudFront",
+      "item": "http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Building Secure Static Website Hosting with AWS S3 \u0026 CloudFront",
+  "name": "Building Secure Static Website Hosting with AWS S3 \u0026 CloudFront",
+  "description": "This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.",
+  "keywords": [
+    "AWS", "Amazon S3", "Amazon CloudFront", "CDN", "Cloud Architecture", "DevOps", "Security", "Static Website Hosting"
+  ],
+  "articleBody": "Building cloud infrastructure sounds straightforward—until you hit your first “Access Denied” error.I just finished building a secure Static Website Hosting architecture. The goal was to use Amazon S3 for hosting and Amazon CloudFront for a global Content Delivery Network (CDN).The setup seemed easy, but I made a few classic mistakes along the way—which turned into the best learning opportunities:## Key Learnings from Implementation### Mistake 1: The “Public Bucket” Shortcut \u0026 Wrong EndpointInitially, my site worked, but my S3 bucket was entirely public. When I tried to lock it down using Origin Access Control (OAC), it failed because I had selected the S3 Website Endpoint instead of the S3 REST API Endpoint.The Learning: CloudFront OAC only works with the REST API endpoint. In enterprise environments, directly exposing an S3 bucket is a major security risk. You must block all public access and use a strict JSON bucket policy that only allows CloudFront to read the files.### Mistake 2: The Final “Access Denied\"After locking down the bucket securely, my CloudFront URL threw an Access Denied error unless I manually typed /index.html at the end of the URL.The Learning: When you switch to a private REST API endpoint, CloudFront no longer automatically knows which file to serve at the root domain. You have to explicitly define index.html as the Default Root Object in the CloudFront settings.It is one thing to read about the principle of least privilege, but actually implementing it, troubleshooting the routing, and navigating cache invalidations really connects the dots.On to the next challenge!\nOriginal LinkedIn Post\n",
+  "wordCount" : "256",
+  "inLanguage": "en",
+  "datePublished": "2026-07-21T06:11:38Z",
+  "dateModified": "2026-07-21T06:11:38Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shantanu's Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Shantanu&#39;s Portfolio (Alt + H)">Shantanu&#39;s Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags" title="Skills">
+                    <span>Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts" title="Learning Blog">
+                    <span>Learning Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Building Secure Static Website Hosting with AWS S3 &amp; CloudFront
+    </h1>
+    <div class="post-meta"><span title='2026-07-21 06:11:38 +0000 UTC'>July 21, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Building cloud infrastructure sounds straightforward—until you hit your first &ldquo;Access Denied&rdquo; error.I just finished building a secure Static Website Hosting architecture. The goal was to use Amazon S3 for hosting and Amazon CloudFront for a global Content Delivery Network (CDN).The setup seemed easy, but I made a few classic mistakes along the way—which turned into the best learning opportunities:## Key Learnings from Implementation### Mistake 1: The &ldquo;Public Bucket&rdquo; Shortcut &amp; Wrong EndpointInitially, my site worked, but my S3 bucket was entirely public. When I tried to lock it down using Origin Access Control (OAC), it failed because I had selected the S3 Website Endpoint instead of the S3 REST API Endpoint.<strong>The Learning:</strong> CloudFront OAC only works with the REST API endpoint. In enterprise environments, directly exposing an S3 bucket is a major security risk. You must block all public access and use a strict JSON bucket policy that only allows CloudFront to read the files.### Mistake 2: The Final &ldquo;Access Denied&quot;After locking down the bucket securely, my CloudFront URL threw an Access Denied error unless I manually typed /index.html at the end of the URL.<strong>The Learning:</strong> When you switch to a private REST API endpoint, CloudFront no longer automatically knows which file to serve at the root domain. You have to explicitly define <code>index.html</code> as the Default Root Object in the CloudFront settings.It is one thing to read about the principle of least privilege, but actually implementing it, troubleshooting the routing, and navigating cache invalidations really connects the dots.On to the next challenge!</p>
+<p><em><a href="https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7485214888382873601">Original LinkedIn Post</a></em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/aws/">AWS</a></li>
+      <li><a href="http://localhost:1313/tags/amazon-s3/">Amazon S3</a></li>
+      <li><a href="http://localhost:1313/tags/amazon-cloudfront/">Amazon CloudFront</a></li>
+      <li><a href="http://localhost:1313/tags/cdn/">CDN</a></li>
+      <li><a href="http://localhost:1313/tags/cloud-architecture/">Cloud Architecture</a></li>
+      <li><a href="http://localhost:1313/tags/devops/">DevOps</a></li>
+      <li><a href="http://localhost:1313/tags/security/">Security</a></li>
+      <li><a href="http://localhost:1313/tags/static-website-hosting/">Static Website Hosting</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Secure CI/CD: Decoupling IaC from Application Builds</span>
+  </a>
+  <a class="next" href="http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Secure Static Website Hosting with AWS S3 &amp; CloudFront</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Shantanu&#39;s Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

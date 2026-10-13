@@ -16,6 +16,13 @@
       <description>Automated CI/CD for a 3-Tier App using Jenkins, EKS, and ArgoCD.</description>
     </item>
     <item>
+      <title>Advanced Cloud &amp; GitOps Implementations</title>
+      <link>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</guid>
+      <description>This portfolio showcases recent hands-on projects, including a GitOps deployment pipeline on Azure Kubernetes Service (AKS) with ArgoCD, a fully Terraform-codified AWS serverless CI/CD architecture, and an EKS-based three-tier e-commerce platform integrating Jenkins and ArgoCD.</description>
+    </item>
+    <item>
       <title>DevOps &amp; Cloud Infrastructure Projects</title>
       <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
@@ -28,6 +35,13 @@
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</guid>
       <description>This portfolio highlights recent hands-on projects including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, showcasing expertise in modern DevOps and cloud infrastructure.</description>
+    </item>
+    <item>
+      <title>Building a Cloud and DevOps Portfolio</title>
+      <link>http://localhost:1313/projects/2026-06-18-building-a-cloud-and-devops-portfolio/</link>
+      <pubDate>Thu, 18 Jun 2026 06:04:02 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-06-18-building-a-cloud-and-devops-portfolio/</guid>
+      <description>This portfolio showcases hands-on experience in provisioning AWS infrastructure with Terraform, establishing automated CI/CD pipelines using Jenkins, and deploying 3-tier applications on Azure Kubernetes Service.</description>
     </item>
   </channel>
 </rss>

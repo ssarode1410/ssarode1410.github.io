@@ -16,6 +16,13 @@
       <description>Designed and provisioned a secure VPC architecture using Terraform IaC modules.</description>
     </item>
     <item>
+      <title>Advanced Cloud &amp; GitOps Implementations</title>
+      <link>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</guid>
+      <description>This portfolio showcases recent hands-on projects, including a GitOps deployment pipeline on Azure Kubernetes Service (AKS) with ArgoCD, a fully Terraform-codified AWS serverless CI/CD architecture, and an EKS-based three-tier e-commerce platform integrating Jenkins and ArgoCD.</description>
+    </item>
+    <item>
       <title>DevOps &amp; Cloud Infrastructure Projects</title>
       <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
@@ -28,6 +35,13 @@
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</guid>
       <description>This portfolio highlights recent hands-on projects including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, showcasing expertise in modern DevOps and cloud infrastructure.</description>
+    </item>
+    <item>
+      <title>Automated AWS CI/CD Pipeline with GitHub Integration</title>
+      <link>http://localhost:1313/projects/2026-07-27-automated-aws-ci-cd-pipeline-with-github-integration/</link>
+      <pubDate>Mon, 27 Jul 2026 15:12:58 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-27-automated-aws-ci-cd-pipeline-with-github-integration/</guid>
+      <description>This project details the creation of a zero-touch CI/CD pipeline on AWS, integrating GitHub, CodePipeline, CodeBuild, S3, and CloudFront for automated deployments. It highlights the troubleshooting of an IAM permission issue during the build process.</description>
     </item>
     <item>
       <title>End-to-End AWS CI/CD Pipeline</title>
@@ -44,11 +58,32 @@
       <description>This project details the creation of a zero-touch, end-to-end CI/CD pipeline on AWS, integrating GitHub, CodePipeline, CodeBuild, S3, and CloudFront for automated deployments and global content delivery.</description>
     </item>
     <item>
+      <title>Building Secure Static Website Hosting with AWS S3 &amp; CloudFront</title>
+      <link>http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/</link>
+      <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/</guid>
+      <description>This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.</description>
+    </item>
+    <item>
       <title>Secure Static Website Hosting with AWS S3 &amp; CloudFront</title>
       <link>http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/</link>
       <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/</guid>
       <description>Built a secure static website hosting architecture leveraging Amazon S3 for storage and Amazon CloudFront for global content delivery, overcoming common configuration challenges related to access control and routing.</description>
+    </item>
+    <item>
+      <title>Building a GitOps Microservices Architecture on AWS</title>
+      <link>http://localhost:1313/projects/2026-06-27-building-a-gitops-microservices-architecture-on-aws/</link>
+      <pubDate>Sat, 27 Jun 2026 08:09:49 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-06-27-building-a-gitops-microservices-architecture-on-aws/</guid>
+      <description>This project details the implementation of an end-to-end DevOps Microservices architecture on AWS, leveraging a GitOps workflow with Terraform, AWS EKS, GitHub Actions, and ArgoCD. It highlights key challenges encountered during deployment and their practical solutions.</description>
+    </item>
+    <item>
+      <title>Building a Cloud and DevOps Portfolio</title>
+      <link>http://localhost:1313/projects/2026-06-18-building-a-cloud-and-devops-portfolio/</link>
+      <pubDate>Thu, 18 Jun 2026 06:04:02 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-06-18-building-a-cloud-and-devops-portfolio/</guid>
+      <description>This portfolio showcases hands-on experience in provisioning AWS infrastructure with Terraform, establishing automated CI/CD pipelines using Jenkins, and deploying 3-tier applications on Azure Kubernetes Service.</description>
     </item>
   </channel>
 </rss>

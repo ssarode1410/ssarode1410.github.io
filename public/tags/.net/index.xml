@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 22 Aug 2026 07:25:19 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lightweight Serverless .NET Azure Function CI/CD</title>
+      <link>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/</link>
+      <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/</guid>
+      <description>This project details the architecture and implementation of a lightweight, non-containerized CI/CD pipeline for a .NET 8 Azure Function targeting the new Flex Consumption plan, emphasizing zero-trust security and efficiency.</description>
+    </item>
+    <item>
       <title>Zero-Trust Serverless CI/CD with Azure Functions</title>
       <link>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</link>
       <pubDate>Sat, 22 Aug 2026 07:25:19 +0000</pubDate>

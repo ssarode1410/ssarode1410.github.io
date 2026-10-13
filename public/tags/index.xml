@@ -30,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>CentOS</title>
+      <link>http://localhost:1313/tags/centos/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/centos/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>CI/CD</title>
       <link>http://localhost:1313/tags/ci/cd/</link>
       <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
@@ -58,10 +65,31 @@
       <description></description>
     </item>
     <item>
+      <title>Jq</title>
+      <link>http://localhost:1313/tags/jq/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RBAC</title>
+      <link>http://localhost:1313/tags/rbac/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rbac/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Terraform</title>
       <link>http://localhost:1313/tags/terraform/</link>
       <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
       <guid>http://localhost:1313/tags/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/tags/ubuntu/</link>
+      <pubDate>Wed, 09 Sep 2026 10:51:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
@@ -128,6 +156,20 @@
       <description></description>
     </item>
     <item>
+      <title>ACR</title>
+      <link>http://localhost:1313/tags/acr/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/acr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AKS</title>
+      <link>http://localhost:1313/tags/aks/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aks/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>ArgoCD</title>
       <link>http://localhost:1313/tags/argocd/</link>
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
@@ -139,6 +181,20 @@
       <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
       <guid>http://localhost:1313/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ECR</title>
+      <link>http://localhost:1313/tags/ecr/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ecr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EKS</title>
+      <link>http://localhost:1313/tags/eks/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/tags/eks/</guid>
       <description></description>
     </item>
     <item>
@@ -233,6 +289,13 @@
       <description></description>
     </item>
     <item>
+      <title>Azure Kubernetes Service</title>
+      <link>http://localhost:1313/tags/azure-kubernetes-service/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/tags/azure-kubernetes-service/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cloud Security</title>
       <link>http://localhost:1313/tags/cloud-security/</link>
       <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
@@ -244,6 +307,13 @@
       <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
       <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>http://localhost:1313/tags/microservices/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
@@ -289,10 +359,24 @@
       <description></description>
     </item>
     <item>
+      <title>Static Website Hosting</title>
+      <link>http://localhost:1313/tags/static-website-hosting/</link>
+      <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>
+      <guid>http://localhost:1313/tags/static-website-hosting/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>GitHub Actions</title>
       <link>http://localhost:1313/tags/github-actions/</link>
-      <pubDate>Mon, 08 Dec 2025 12:19:18 +0530</pubDate>
+      <pubDate>Sat, 27 Jun 2026 08:09:49 +0000</pubDate>
       <guid>http://localhost:1313/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/tags/cloud/</link>
+      <pubDate>Thu, 18 Jun 2026 06:04:02 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
@@ -314,20 +398,6 @@
       <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/networking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AKS</title>
-      <link>http://localhost:1313/tags/aks/</link>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/aks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>EKS</title>
-      <link>http://localhost:1313/tags/eks/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/eks/</guid>
       <description></description>
     </item>
     <item>

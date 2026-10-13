@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 20 Aug 2026 05:58:40 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/sre/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advanced Cloud &amp; GitOps Implementations</title>
+      <link>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</link>
+      <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</guid>
+      <description>This portfolio showcases recent hands-on projects, including a GitOps deployment pipeline on Azure Kubernetes Service (AKS) with ArgoCD, a fully Terraform-codified AWS serverless CI/CD architecture, and an EKS-based three-tier e-commerce platform integrating Jenkins and ArgoCD.</description>
+    </item>
+    <item>
       <title>DevOps &amp; Cloud Infrastructure Projects</title>
       <link>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</link>
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
@@ -21,6 +28,13 @@
       <pubDate>Thu, 20 Aug 2026 05:58:40 +0000</pubDate>
       <guid>http://localhost:1313/projects/2026-08-20-recent-devops-cloud-infrastructure-projects/</guid>
       <description>This portfolio highlights recent hands-on projects including a GitOps deployment pipeline on AKS, a Terraform-codified AWS serverless CI/CD architecture, and an EKS-based e-commerce platform, showcasing expertise in modern DevOps and cloud infrastructure.</description>
+    </item>
+    <item>
+      <title>Secure CI/CD: Decoupling IaC from Application Builds</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/</guid>
+      <description>This article details a critical best practice for CI/CD pipelines: strictly decoupling Infrastructure as Code (IaC) from application builds. It explains how this approach enhances security by enforcing least privilege and improves efficiency, outlining a secure architecture using separate pipelines for infrastructure provisioning and application delivery with GitOps.</description>
     </item>
   </channel>
 </rss>

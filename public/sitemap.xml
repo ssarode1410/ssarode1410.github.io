@@ -17,6 +17,9 @@
     <loc>http://localhost:1313/tags/ansible/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/2026-09-09-automated-ci-cd-pipeline-with-azure-devops-terraform-and-ansible/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/2026-09-09-automated-ci-cd-with-azure-devops-terraform-and-ansible/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
@@ -24,6 +27,9 @@
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/azure-devops/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/centos/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ci/cd/</loc>
@@ -38,10 +44,19 @@
     <loc>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-with-azure-devops-terraform-and-ansible/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/2026-09-09-end-to-end-ci-cd-workflow-with-azure-devops-terraform-and-ansible/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/infrastructure-as-code/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/jq/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rbac/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -51,6 +66,9 @@
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/terraform/</loc>
+    <lastmod>2026-09-09T10:51:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ubuntu/</loc>
     <lastmod>2026-09-09T10:51:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/.net/</loc>
@@ -71,6 +89,12 @@
     <loc>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-8-azure-function-deployment/</loc>
     <lastmod>2026-08-22T07:25:19+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/2026-08-22-lightweight-serverless-net-azure-function-ci-cd/</loc>
+    <lastmod>2026-08-22T07:25:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-08-22-lightweight-serverless-deployment-with-azure-functions-and-azure-devops/</loc>
+    <lastmod>2026-08-22T07:25:19+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/managed-identity/</loc>
     <lastmod>2026-08-22T07:25:19+00:00</lastmod>
   </url><url>
@@ -86,6 +110,15 @@
     <loc>http://localhost:1313/projects/2026-08-22-zero-trust-serverless-ci-cd-with-azure-functions/</loc>
     <lastmod>2026-08-22T07:25:19+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/acr/</loc>
+    <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-08-20-advanced-cloud-gitops-implementations/</loc>
+    <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/aks/</loc>
+    <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/argocd/</loc>
     <lastmod>2026-08-20T05:58:40+00:00</lastmod>
   </url><url>
@@ -93,6 +126,12 @@
     <lastmod>2026-08-20T05:58:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/2026-08-20-devops-cloud-infrastructure-projects/</loc>
+    <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ecr/</loc>
+    <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/eks/</loc>
     <lastmod>2026-08-20T05:58:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gitops/</loc>
@@ -115,6 +154,9 @@
   </url><url>
     <loc>http://localhost:1313/tags/sre/</loc>
     <lastmod>2026-08-20T05:58:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-07-27-automated-aws-ci-cd-pipeline-with-github-integration/</loc>
+    <lastmod>2026-07-27T15:12:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cloudfront/</loc>
     <lastmod>2026-07-27T15:12:58+00:00</lastmod>
@@ -143,22 +185,37 @@
     <loc>http://localhost:1313/tags/argo-cd/</loc>
     <lastmod>2026-07-25T06:22:05+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/azure-kubernetes-service/</loc>
+    <lastmod>2026-07-25T06:22:05+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/cloud-security/</loc>
     <lastmod>2026-07-25T06:22:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/docker/</loc>
     <lastmod>2026-07-25T06:22:05+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/microservices/</loc>
+    <lastmod>2026-07-25T06:22:05+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/platform-engineering/</loc>
     <lastmod>2026-07-25T06:22:05+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/2026-07-25-secure-ci-cd-architecture-decoupling-terraform/</loc>
+    <lastmod>2026-07-25T06:22:05+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-and-application-pipelines/</loc>
+    <lastmod>2026-07-25T06:22:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-07-25-secure-ci-cd-decoupling-iac-from-application-builds/</loc>
     <lastmod>2026-07-25T06:22:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/amazon-cloudfront/</loc>
     <lastmod>2026-07-21T06:11:38+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/amazon-s3/</loc>
+    <lastmod>2026-07-21T06:11:38+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/</loc>
     <lastmod>2026-07-21T06:11:38+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cdn/</loc>
@@ -173,11 +230,23 @@
     <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2026-07-21T06:11:38+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-12-13T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/static-website-hosting/</loc>
+    <lastmod>2026-07-21T06:11:38+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-06-27-building-a-gitops-microservices-architecture-on-aws/</loc>
+    <lastmod>2026-06-27T08:09:49+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/github-actions/</loc>
-    <lastmod>2025-12-08T12:19:18+05:30</lastmod>
+    <lastmod>2026-06-27T08:09:49+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2026-06-18-building-a-cloud-and-devops-portfolio/</loc>
+    <lastmod>2026-06-18T06:04:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud/</loc>
+    <lastmod>2026-06-18T06:04:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2025-12-08T12:19:18+05:30</lastmod>
@@ -187,12 +256,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/aks/</loc>
-    <lastmod>2025-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/eks/</loc>
-    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/azure-container-registry/</loc>
     <lastmod>2025-01-27T19:16:35+00:00</lastmod>

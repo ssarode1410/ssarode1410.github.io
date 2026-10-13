@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 21 Jul 2026 06:11:38 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Building Secure Static Website Hosting with AWS S3 &amp; CloudFront</title>
+      <link>http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/</link>
+      <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-21-building-secure-static-website-hosting-with-aws-s3-cloudfront/</guid>
+      <description>This project details the creation of a secure static website hosting architecture using Amazon S3 and CloudFront, highlighting key learnings from common configuration pitfalls related to access control and routing.</description>
+    </item>
+    <item>
       <title>Secure Static Website Hosting with AWS S3 &amp; CloudFront</title>
       <link>http://localhost:1313/projects/2026-07-21-secure-static-website-hosting-with-aws-s3-cloudfront/</link>
       <pubDate>Tue, 21 Jul 2026 06:11:38 +0000</pubDate>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Microservices on Shantanu&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/microservices/</link>
+    <description>Recent content in Microservices on Shantanu&#39;s Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jul 2026 06:22:05 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure CI/CD Architecture: Decoupling Terraform</title>
+      <link>http://localhost:1313/projects/2026-07-25-secure-ci-cd-architecture-decoupling-terraform/</link>
+      <pubDate>Sat, 25 Jul 2026 06:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-07-25-secure-ci-cd-architecture-decoupling-terraform/</guid>
+      <description>This post outlines a secure architectural approach for CI/CD pipelines, advocating for the strict decoupling of infrastructure provisioning (using Terraform) from application builds to enhance security, reduce blast radius, and improve execution speed.</description>
+    </item>
+    <item>
+      <title>Building a GitOps Microservices Architecture on AWS</title>
+      <link>http://localhost:1313/projects/2026-06-27-building-a-gitops-microservices-architecture-on-aws/</link>
+      <pubDate>Sat, 27 Jun 2026 08:09:49 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2026-06-27-building-a-gitops-microservices-architecture-on-aws/</guid>
+      <description>This project details the implementation of an end-to-end DevOps Microservices architecture on AWS, leveraging a GitOps workflow with Terraform, AWS EKS, GitHub Actions, and ArgoCD. It highlights key challenges encountered during deployment and their practical solutions.</description>
+    </item>
+  </channel>
+</rss>
