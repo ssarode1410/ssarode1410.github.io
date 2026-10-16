@@ -1,0 +1,31 @@
+---
+title: "Secure Static Website Hosting on AWS"
+date: 2026-07-21 06:11:38
+draft: false
+tags: ['AWS', 'S3', 'CloudFront', 'CloudComputing', 'DevOps', 'CloudArchitecture']
+summary: "This project involved building a secure static website hosting architecture using Amazon S3 for storage and Amazon CloudFront for content delivery, addressing common configuration pitfalls related to access control and default root object settings."
+---
+
+Building cloud infrastructure sounds straightforward—until you hit your first "Access Denied" error.
+
+I just finished building a secure Static Website Hosting architecture. The goal was to use Amazon S3 for hosting and Amazon CloudFront for a global Content Delivery Network (CDN).
+
+The setup seemed easy, but I made a few classic mistakes along the way—which turned into the best learning opportunities:
+
+### Mistake 1: The "Public Bucket" Shortcut & Wrong Endpoint
+
+Initially, my site worked, but my S3 bucket was entirely public. When I tried to lock it down using Origin Access Control (OAC), it failed because I had selected the S3 Website Endpoint instead of the S3 REST API Endpoint.
+
+**The Learning:** CloudFront OAC only works with the REST API endpoint. In enterprise environments, directly exposing an S3 bucket is a major security risk. You must block all public access and use a strict JSON bucket policy that only allows CloudFront to read the files.
+
+### Mistake 2: The Final "Access Denied"
+
+After locking down the bucket securely, my CloudFront URL threw an Access Denied error unless I manually typed `/index.html` at the end of the URL.
+
+**The Learning:** When you switch to a private REST API endpoint, CloudFront no longer automatically knows which file to serve at the root domain. You have to explicitly define `index.html` as the Default Root Object in the CloudFront settings.
+
+It is one thing to read about the principle of least privilege, but actually implementing it, troubleshooting the routing, and navigating cache invalidations really connects the dots.
+
+On to the next challenge!
+
+*[Original LinkedIn Post](https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7485214888382873601)*
