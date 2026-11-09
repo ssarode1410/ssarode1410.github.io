@@ -1,9 +1,9 @@
 ---
-title: "Secure Static Website Hosting on AWS"
+title: "Secure Static Website Hosting with AWS S3 and CloudFront"
 date: 2026-07-21 06:11:38
 draft: false
-tags: ['AWS', 'S3', 'CloudFront', 'CloudComputing', 'DevOps', 'CloudArchitecture']
-summary: "This project involved building a secure static website hosting architecture using Amazon S3 for storage and Amazon CloudFront for content delivery, addressing common configuration pitfalls related to access control and default root object settings."
+tags: ["AWS", "Amazon S3", "Amazon CloudFront", "CDN", "Cloud Architecture", "Security", "DevOps", "Origin Access Control"]
+summary: "This project details the hands-on experience of building a secure static website hosting architecture using Amazon S3 for storage and Amazon CloudFront for global content delivery, highlighting key security and configuration learnings."
 ---
 
 Building cloud infrastructure sounds straightforward—until you hit your first "Access Denied" error.
@@ -11,6 +11,8 @@ Building cloud infrastructure sounds straightforward—until you hit your first 
 I just finished building a secure Static Website Hosting architecture. The goal was to use Amazon S3 for hosting and Amazon CloudFront for a global Content Delivery Network (CDN).
 
 The setup seemed easy, but I made a few classic mistakes along the way—which turned into the best learning opportunities:
+
+## Key Learnings from Static Site Deployment
 
 ### Mistake 1: The "Public Bucket" Shortcut & Wrong Endpoint
 
